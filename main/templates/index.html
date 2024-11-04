@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcane Logic System</title>
+    <link rel="stylesheet" href="static/static.css"> <!-- Link para um arquivo CSS -->
+    <link rel="stylesheet" href="static/responsivo.css"> <!-- Link para um arquivo CSS -->
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <!--<h1>Arcane Logic System</h1>-->
+            <img src="/static/img/arcane branco.png">
+        </div>
+        <div class="menu">
+            <a href="#menu">Home</a>
+            <!-- <a href="#">Sobre</a>-->
+            <a href="#area-atuacao">Serviços</a>    
+            <a href="#contatos">Contato</a>
+            <a href="https://github.com/Ns-victo">Github</a>
+
+        </div>
+    </nav>
+    <header id="menu" class="header">
+        <div class="headline">
+            <h2 class='titulo' style="letter-spacing: 10px;">Desenvolvedor de Software</h2>
+            <h2 class ="subtitulo">Victor Nunes</h2>
+            <p class="sobremim">
+                O desenvolvimento de sistemas desempenha um papel crucial no sucesso das empresas modernas, trazendo 
+                uma série de benefícios que impactam diretamente a eficiência e a competitividade.
+                Investir no desenvolvimento de sistemas não é apenas uma escolha estratégica; é uma necessidade para empresas que desejam prosperar em um ambiente dinâmico e desafiador. Com soluções personalizadas e eficientes, 
+                as organizações podem não apenas atender às demandas atuais, mas também se preparar para o futuro.
+            </p>
+        </div>
+        <div class = "img-headline">
+            <img src ="/static/img/novo-logo.png">
+        </div>
+    </header>
+    <section id = 'area-atuacao'>
+        <h2>Minha área de atuação</h2>
+        <div class="servicos">
+            <div class = "card"><!-- Inicio do segundo card-->
+                <img src = "/static/img/codcomputer.png">
+                <div class="card-text">
+                    <h3>Desenvolvimento Desktop</h3>
+                    <p class = "alinhamento-texto">Desenvolvo sistemas desktop personalizados, focados em atender às necessidades específicas de cada cliente. 
+                        Com uma abordagem centrada no usuário, crio aplicações robustas e intuitivas, utilizando as melhores práticas de programação. 
+                        Meu objetivo é garantir desempenho, segurança e uma experiência fluida, integrando funcionalidades que realmente fazem a diferença no dia a dia dos usuários.
+                    </p>
+                </div>
+                <div class="texto-oculto">
+                    <h3>Linguagens de Programação </h3>
+                    <p> Usando Python como linguagem principal, aproveitando sua versatilidade e a ampla gama de bibliotecas disponíveis.<br>
+                        Usando Flet consigo criar interfaces de usuário modernas e interativas de forma rápida e eficiente, permitindo que o aplicativo seja intuitivo e fácil de usar.<br>
+                        Usando SQL para criar e manipular bancos de dados, garantindo que as informações sejam armazenadas e acessadas de maneira rápida e segura. Juntas, essas tecnologias possibilitam o desenvolvimento de aplicações desktop robustas, escaláveis e que atendem às necessidades específicas dos usuários.<br>
+                    </p>
+                </div>
+            </div>
+            <div class = "card"><!-- Inicio do segundo card-->
+                <img src = "/static/img/coding.png">
+                <div class="card-text">
+                    <h3 >Desenvolvimento Web</h3>
+                    <p class = "alinhamento-texto">Desenvolvo sistemas web personalizados que atendem às necessidades únicas de cada cliente. Com foco em usabilidade e design responsivo, crio aplicações intuitivas e funcionais, utilizando as tecnologias mais recentes. Meu objetivo é proporcionar uma experiência de usuário excepcional, garantindo desempenho, segurança e escalabilidade, para que suas soluções online sejam eficazes e inovadoras.</p>
+                </div>
+                <div class="texto-oculto">
+                    <h3>Linguagens de Programação</h3>
+                    <p>Usando Flask como framework principal, aproveitando sua leveza e flexibilidade para criar aplicações robustas e escaláveis. Com Flask, consigo construir rotas, gerenciar requisições e integrar facilmente com bancos de dados.
+                       <br> Utilizo HTML para estruturar o conteúdo das páginas e CSS para estilizar e tornar as interfaces atraentes e responsivas. Juntas, essas tecnologias permitem criar experiências de usuário dinâmicas e intuitivas, garantindo que o site não apenas funcione bem, mas também ofereça uma apresentação visual atraente.
+                    </p>
+                </div>  
+            </div>
+      
+            <div class = "card"><!-- Inicio do terceiro card-->
+                <img src = "/static/img/mobile-phone.png">
+                <div class="card-text">
+                    <h3>Desenvolvimento Mobile</h3>
+                    <p class = "alinhamento-texto">Desenvolvo aplicativos mobile personalizados, projetados para oferecer uma experiência de usuário envolvente e intuitiva. Utilizando as melhores práticas de design e as tecnologias mais recentes, crio soluções que funcionam perfeitamente em diversas plataformas. Meu foco é garantir desempenho, segurança e funcionalidade, permitindo que as empresas alcancem seus usuários de maneira eficaz e inovadora.</p>
+                </div>
+                <div class="texto-oculto">
+                    <h3>Linguagens de Programação</h3>
+                    <p> Usando Python como linguagem principal, aproveitando sua versatilidade e a ampla gama de bibliotecas disponíveis.<br>
+                        Usando Flet consigo criar interfaces de usuário modernas e interativas de forma rápida e eficiente, permitindo que o aplicativo seja intuitivo e fácil de usar.<br>
+                        Usando SQL para criar e manipular bancos de dados, garantindo que as informações sejam armazenadas e acessadas de maneira rápida e segura. Juntas, essas tecnologias possibilitam o desenvolvimento de aplicações desktop robustas, escaláveis e que atendem às necessidades específicas dos usuários.<br>
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--<div id ="chat-container" class="chat">
+        <div id ="chat-box"></div>
+        <input type="text " id ="user-input" placeholder = "Digite sua menssagem...">
+        <button id="send-btn">Enviar</button>
+        <script src="{{ url_for('static', filename='script.js') }}"></script>
+    </div>-->
+    <footer id="contatos" class="footer">
+        <div class="img-contatos">
+            <div class="contact-item">
+                <a href="#" id="copy-email-btn">
+                    <img src="{{ url_for('static', filename='img/mail.png') }}" alt="Email">
+                </a>
+            </div>
+        </div>
+        </div>
+            </div>
+            <div class="contact-item">
+            <a href="https://api.whatsapp.com/send?phone=5513996872436&text=Ol%C3%A1,%20preciso%20conversar%20a%20respeito%20de%20sistemas!"><img src="/static/img/whatsapp.png"></a>   
+            
+            </div>
+            <div class="contact-item">
+                <a href="https://github.com/Ns-victo"><img src="/static/img/github-logo.png"></a>
+            </div>
+            </div>
+        </div>
+    </footer>
+    <script src="static/script.js"></script>
+</body>
+</html>

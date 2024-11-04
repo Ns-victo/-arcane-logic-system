@@ -1,0 +1,199 @@
+*{/*Confihuração geral do site, de grau menor sera substituida por qualquer outra que esstiver especificada logo a baixo */
+    box-sizing: border-box;/*Elementos para usar caixas como espaçamento*/
+    font-family: "Almendra", serif;
+}
+
+body{
+    margin: 0;/*Deixa o site com margin Zero iniciando colado ao canto da tela*/ 
+    
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    background: linear-gradient(to bottom,#4b609f, #001f3f, #000000);
+    height: 125px;/*Altura da navbar*/
+    justify-content: center;/*centraliza o conteudo dentro da caixa */
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.logo img{
+    width: 100px;
+
+}
+.logo{
+    margin-left: 10%;
+    text-align: center;
+}
+.menu{
+    flex: 70%;
+    text-align: right;/*Alinhamento do texto à direita*/
+    padding-right: 10%; 
+    
+}
+.menu a{/*Estilização dos itens no menu*/
+    text-decoration: none;
+    color:white ;/*Cor dos itens no menu */
+    font-size: 20px;
+    padding: 20px 16px; 
+    
+}
+.menu a:hover{/*link dos itens no menu, efeitos ao passar o cursor*/
+    color:#4b609f;/*cor para home, sobre, serviços e contato*/
+    border-top: 4px solid #ffffff;/*traço para cada item colorido */
+    
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;/*Alinhamento em linha */   
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.headline{
+    flex: 40%;
+    margin-left: 10%;
+    color: #05466c;
+    margin-top: 10%;
+      
+}
+.headline h2{
+    font-family: "Almendra", serif;
+   
+}
+.subtitulo{
+  color: #05466c;
+  font-size: 45px;
+    
+}
+.sobremim{
+    font-size: 20px;
+    margin-right: 50px;
+}
+.headline p{
+    text-align: left;
+    text-align: justify;
+    
+}
+.img-headline{
+    margin-top: 150px;
+    margin-right: 60px;
+    max-width: 100%; /* A imagem não ultrapassará 100% da largura do elemento pai */
+
+}
+
+section{
+    margin-top: 35px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    width: 90%;
+    text-align: center;
+}
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+    color: #313f6f;
+    
+}
+.servicos{
+    display: inline-block;
+    margin: 5%;
+
+}
+.card{
+    display: inline-block;
+    width: 30%;/*Regula largura dos cards*/
+    padding: 30px;/*Regula altura dos cards*/
+    margin: 1%;
+    border: solid 2px #d3d3d3bc;
+    color: #05466c;
+    border-radius: 20px;
+    cursor: pointer;
+     
+}
+.alinhamento-texto{
+    text-align: justify;
+    color: #05466c;
+    
+}
+.card:hover{
+    background: #313f6f;
+    color: #d3d3d3;
+    padding: 40px;
+}
+.card:hover img{
+    display: none;
+
+}
+.card:hover .card-text{
+    display: none;
+      
+}
+.card:hover .texto-oculto{
+    display: block;
+}
+.texto-oculto{
+    display: none;
+    text-align: justify;
+}
+#chat-container {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#chat-box {
+    height: 200px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#user-input {
+    width: calc(100% - 60px);
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px;
+}
+
+.footer {
+    background: linear-gradient(to bottom, #4b609f, #001f3f, #000000);
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center; /* Centraliza os ícones horizontalmente */
+    align-items: center; /* Alinha os ícones verticalmente */
+    gap: 20px; /* Espaço entre os ícones */
+}
+
+.contact-item {
+    display: flex; /* Garante que o conteúdo seja tratado como flexível */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+.contact-item img {
+    width: 30px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção */
+    transition: transform 0.3s; /* Efeito de transição ao passar o mouse */
+}
+
+.contact-item img:hover {
+    transform: scale(1.1); /* Aumenta o ícone ao passar o mouse */
+}
+
+
+
+
+
+
+
+
